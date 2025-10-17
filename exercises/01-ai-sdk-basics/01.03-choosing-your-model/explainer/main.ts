@@ -9,4 +9,6 @@ import { anthropic } from '@ai-sdk/anthropic';
 
 const model = openai('gpt-4o-mini');
 
+const foo = openai('o3-mini');
+
 console.dir(model, { depth: null });
